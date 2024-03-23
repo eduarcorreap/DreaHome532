@@ -1,0 +1,129 @@
+body { 
+  background-image: url(img/spacejoy-c0JoR_-2x3E-unsplash.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Estilos para el panel lateral */
+.sidenav {
+  height: 100%; /* Altura del panel lateral */
+  width: 250px; /* Ancho del panel lateral */
+  position: fixed; /* Posición fija para que se mantenga en la pantalla al hacer scroll */
+  top: -80px; /* Alineación en la parte superior */
+  left: -250px; /* Ocultar el panel lateral inicialmente */
+  background-color: #333; /* Color de fondo del panel lateral */
+  padding-top: 60px; /* Espaciado superior */
+  transition: all 0.3s ease; /* Efecto de transición suave al mostrar/ocultar el panel */
+}
+
+/* Estilos para el contenido principal cuando se abre el panel lateral */
+.main {
+  margin-left: 250px; /* Desplazar el contenido principal para dejar espacio al panel lateral */
+  transition: margin-left .3s; /* Efecto de transición al desplazar el contenido principal */
+}
+
+/* Estilos para mostrar el panel lateral al hacer hover sobre el botón */
+.sidenav-trigger:hover + .sidenav,
+.sidenav:hover {
+  left: 0; /* Mostrar el panel lateral al hacer hover */
+}
+
+/* Estilos para los elementos dentro del panel lateral */
+.sidenav a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+/* Estilos para el botón de cierre del panel lateral */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+  /* jaicascai*/
+  .logo{
+    background-image: none;
+    background: transparent;
+    
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  
+    
+  }
+  header {
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 175px;
+    height: 75px;
+  }
+  h1 {
+    border-radius: 15px;
+    width: 350px;
+    height: 45px;
+    background-color: rgb(10, 10, 10);
+    color: gold;
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+  .categoria {
+    flex-basis: calc(25% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px black;
+    transition: transform 0.3s ease;
+  }
+  .categoria:hover {
+    transform: translateY(-5px);
+  }
+  .categoria h2 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.5em;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+  }
+  .descripcion {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #777;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .boton:hover {
+    background-color: #999;
+  }

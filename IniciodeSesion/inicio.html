@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dream Home offi</title>
+<link rel="stylesheet" href="inicio.css">
+<header>
+  <img src="img/logoDH (2).jpg" class="logo" alt="DreamHome">
+</header>
+<body>
+  <nav class="black" role="navigation">
+    <div class="nav-wrapper container nav">
+      <a id="logo-container" href="#" class="brand-logo">
+      </a>
+<!--  Menu de Dream Home-->
+      
+      <ul id="nav-mobile" class="sidenav">
+        <a href="#">Dream Home</a>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">carrito🛒</a></li>
+        <li><a href="#" class="btn black white-text waves-effect waves-blue-grey lighten-1">Contact📞</a></li>
+        <li><a href="index.php">iniciar sesion</a></li>
+        <li><a href="CrearCuenta.php">Registrarse</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+ 
+  <h1>Selección de Muebles</h1>
+  
+
+  <div class="categoria">
+    <h2>Salas</h2>
+    <label for="salas">Salas:</label>
+    <select id="salas" name="salas">
+      <option value="reclinables">Reclinables</option>
+      <option value="multifuncionales">Multifuncionales</option>
+      <option value="deco">Deco</option>
+      <option value="modular">Modular</option>
+    </select>
+    <div class="descripcion">Salas cómodas y elegantes para tu hogar.</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Sofás</h2>
+    <label for="sofas">Sofás:</label>
+    <select id="sofas" name="sofas">
+      <option value="reclinables">Reclinables</option>
+      <option value="multifuncional">Multifuncional</option>
+      <option value="deco">Deco</option>
+      <option value="modulares">Modulares</option>
+      <option value="cheaster">Cheaster</option>
+    </select>
+    <div class="descripcion">Sofas cómodos y elegantes para tu hogar.</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Sillas</h2>
+    <label for="sillas">Sillas:</label>
+    <select id="sillas" name="sillas">
+      <option value="modernas">Modernas</option>
+      <option value="reclinables">Reclinables</option>
+      <option value="bonsay">Bonsay</option>
+      <option value="poltronas">Poltronas</option>
+      <option value="modulares">Modulares</option>
+    </select>
+    <div class="descripcion">Sillas cómodas y elegantes para tu hogar.</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Comedores</h2>
+    <label for="comedores">Comedores:</label>
+    <select id="comedores" name="comedores">
+      <option value="clasicos">Clásicos</option>
+      <option value="modernos">Modernos</option>
+      <option value="rusticos">Rústicos</option>
+      <option value="minimalistas">Minimalistas</option>
+    </select>
+    <div class="descripcion">Comedores elegantes y funcionales.</div>
+  </div>
+
+  <!-- Botón de búsqueda -->
+  <form action="/buscar" method="GET" class="categoria">
+    <h2>Buscar productos</h2>
+    <label for="busqueda">Buscar:</label>
+    <input type="text" id="busqueda" name="busqueda">
+    <button type="submit">Buscar</button>
+  <br><br><br><br>
+
+  <h2>Filtros avanzados</h2>
+  <label for="color">Color:</label>
+  <select id="color" name="color">
+    <option value="blanco">Blanco</option>
+    <option value="negro">Negro</option>
+    <option value="gris">Gris</option>
+  </select>
+  <label for="tamaño">Tamaño:</label>
+  <select id="tamaño" name="tamaño">
+    <option value="pequeño">Pequeño</option>
+    <option value="mediano">Mediano</option>
+    <option value="grande">Grande</option>
+  </select>
+
+  <h2>Secciones destacadas</h2>
+
+  <div class="columna info-sofa">
+    <img src="img/01.png" alt="Sofá en Oferta">
+    <h2>Sofá en Oferta</h2>
+    <p>¡Aprovecha nuestra oferta especial en este sofá! Características:</p>
+    <ul>
+      <li>Material: Tela resistente</li>
+      <li>Color: Negro</li>
+      <li>Dimensiones: 200cm x 100cm x 80cm</li>
+    </ul>
+    <div class="oferta">
+      Precio original: <span>$1'200.000</span> Precio de oferta: <span>$999.000</span>
+    </div>
+    <button>Agregar al carrito</button>
+  </div>
+
+  <!-- Aquí puedes agregar secciones destacadas con productos populares, ofertas especiales, etc. -->
+
+  <!-- Formulario de contacto -->
+  <h2>Contacto</h2>
+  <form action="/contacto" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Información de contacto -->
+  <h2>Información de contacto</h2>
+  <p>Dirección: Calle 27B sur #17-38 Este</p>
+  <p>Teléfono: 3112086695</p>
+  <p>Email: dreamhome095@gmail.com</p>
+
+  <h2>Síguenos en redes sociales</h2>
+  <a href="https://web.facebook.com/YilmerSmith00" target="_blank">Facebook</a>
+  <a href="https://twitter.com/tudominio" target="_blank">Twitter</a>
+
+
+  <h2>Opiniones de clientes</h2>
+  <!-- Aquí puedemos agregar reseñas o testimonios de clientes satisfechos -->
+
+  <h2>Mapa de ubicación</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.702596431694!2d-122.08468248468293!3d37.42247697982433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806dcd8d73fb%3A0x14f34c0e65ee6ef1!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1599853192639!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <footer class="page-footer black">
+    
+    <div class="social-container">
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container center footer-text">
+       &copf; DreamHome- 2023
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
